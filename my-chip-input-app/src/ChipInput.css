@@ -1,0 +1,40 @@
+/* ChipInput.css */
+.chip-input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .chips-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .chip {
+    background-color: #e2e8f0;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .chip span {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .input-field {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .filtered-list {
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .filtered-list li {
+    padding: 5px;
+  }
+  
